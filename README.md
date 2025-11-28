@@ -163,10 +163,10 @@ Tested 10 distinct portfolio optimization methodologies over 252-day horizon:
 
 
 ### Suggested baselines - 
-- 1 - simple day to day linear regression but predicting on for 30 days
-- 2 - lstm with decomposition predicting and trained for 30 days
-- 3 - garch + classifier(up or down) for 30 days
-- 4 - multi head transformer with decomposition for 30 days
-- 5 - cnn + lstm with decomposition trained for 30 days
-- 6 - separate bi - lstm chains for each component of decomposition, then combining them to get reslut for 30 day prediction
+1. simple day to day linear regression but predicting on for 30 days
+2. lstm with decomposition predicting and trained for 30 days
+3. garch + classifier(up or down) for 30 days
+4. multi head transformer with decomposition for 30 days
+5. cnn + lstm with decomposition trained for 30 days
+6. separate bi - lstm chains for each component of decomposition, then combining them to get reslut for 30 day prediction
 
